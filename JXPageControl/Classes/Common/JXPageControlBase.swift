@@ -163,9 +163,9 @@ import UIKit
     
     var minIndicatorSize: CGSize = CGSize(width: 2, height: 2)
     
-    var inactiveLayer: [CALayer] = []
+    open var inactiveLayer: [CALayer] = []
     
-    var activeLayer: CALayer?
+    open var activeLayer: CALayer?
     
     // MARK: - -------------------------- Update tht data --------------------------
     func reloadData() {
